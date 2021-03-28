@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <form
+    data-testid="todo-form"
+    onSubmit={[Function]}
+  >
+    <label
+      htmlFor="todo-description-field"
+    >
+      Create todo item
+    </label>
+    <input
+      data-testid="todo-status-description"
+      id="todo-description-field"
+      name="description"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="todo-form-button"
+    >
+      Add
+    </button>
+  </form>
+  <div>
+    <label
+      htmlFor="todo-status-select"
+    >
+      Select status
+    </label>
+    <select
+      data-testid="todo-status-select"
+      id="todo-status-select"
+      name="status"
+      onChange={[Function]}
+      value="all"
+    >
+      <option
+        value="all"
+      >
+        All
+      </option>
+      <option
+        value="completed"
+      >
+        Completed
+      </option>
+      <option
+        value="uncompleted"
+      >
+        Uncompleted
+      </option>
+    </select>
+  </div>
+</div>
+`;

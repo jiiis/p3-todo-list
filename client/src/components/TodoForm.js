@@ -32,7 +32,10 @@ const TodoForm = ({ status, onStatusChange, onSubmit }) => {
 
   return (
     <div>
-      <form onSubmit={handleFormSubmit}>
+      <form
+        onSubmit={handleFormSubmit}
+        data-testid="todo-form"
+      >
         <label htmlFor="todo-description-field">Create todo item</label>
         <input
           id="todo-description-field"
@@ -40,8 +43,9 @@ const TodoForm = ({ status, onStatusChange, onSubmit }) => {
           name="description"
           value={description}
           onChange={handleDescriptionFieldChange}
+          data-testid="todo-status-description"
         />
-        <button>Add</button>
+        <button data-testid="todo-form-button">Add</button>
       </form>
       <div>
         <label htmlFor="todo-status-select">Select status</label>
@@ -50,6 +54,7 @@ const TodoForm = ({ status, onStatusChange, onSubmit }) => {
           name="status"
           value={status}
           onChange={handleStatusFieldChange}
+          data-testid="todo-status-select"
         >
           <option value="all">All</option>
           <option value="completed">Completed</option>
