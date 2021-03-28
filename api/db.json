@@ -1,0 +1,19 @@
+{
+  "todo-items": [
+    {
+      "id": 1,
+      "description": "Go to Atlassian.",
+      "isCompleted": true
+    },
+    {
+      "id": 1819,
+      "description": "Visit China!",
+      "isCompleted": true
+    },
+    {
+      "id": 6592,
+      "description": "asdfasf",
+      "isCompleted": false
+    }
+  ]
+}
